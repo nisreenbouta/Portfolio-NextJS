@@ -10,9 +10,13 @@
     "build-css": "tailwindcss build src/app/globals.css -o public/styles.css"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.8",
+    "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-merge": "^2.4.0"
   },
   "devDependencies": {
     "eslint": "^8",
