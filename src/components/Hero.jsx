@@ -26,7 +26,7 @@ const Hero = () => {
           Eng.Nisreen Bouta  
         </Highlight>
 
-         a Dedicated software engineer specialized in Full-Stack development.
+         A Dedicated software engineer specialized in Full-Stack development.
       </motion.h1>
     </HeroHighlight>
   )
