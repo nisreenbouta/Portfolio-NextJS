@@ -19,7 +19,7 @@ const About = () => {
                     <p className='px-4'>Software Engineer with expertise in .NET Core, Vue JS v2, and React Native. Proven ability to design, develop, and implement end-to-end solutions 
                     across web, mobile, and database platforms, ensuring optimal performance and user experience.</p>
                     <h2 className=' w-full tracking-wider font-normal text-neutral-800 my-4 font-vt323 text-4xl'>Technologies I use</h2>
-                        <div className=' text-neutral-400 text-xl md:text-2xl flex flex-row max-md:flex-wrap max-md:justify-center gap-1 mt-2 items-center px-4'>
+                        <div className=' text-neutral-500 text-xl md:text-2xl flex flex-row max-md:flex-wrap max-md:justify-center gap-1 mt-2 items-center px-4'>
                             <SiReact />
                             <SiGithub />
                             <SiDotnet />

@@ -17,7 +17,7 @@ export const GlowingStarsBackgroundCard = ({
       onMouseEnter={() => setMouseEnter(true)}
       onMouseLeave={() => setMouseEnter(false)}
       className={cn(
-        "relative bg-[linear-gradient(110deg,#fbb6ce,#fff5f7)] p-4 w-80 h-full rounded-xl border border-[#eaeaea]  dark:border-pink-300",
+        "relative bg-gradient-to-b from-white via-pink-200 p-4 mx-4 max-w-72 h-full rounded-xl  dark:border-pink-200",
         className
       )}
     >
@@ -34,7 +34,7 @@ export const GlowingStarsDescription = ({
   children,
 }) => {
   return (
-    <p className={cn("text-base text-white", className)}>
+    <p className={cn("text-base text-neutral-500", className)}>
       {children}
     </p>
   );
@@ -45,7 +45,7 @@ export const GlowingStarsTitle = ({
   children,
 }) => {
   return (
-    <h2 className={cn("font-bold text-2xl text-[#eaeaea]", className)}>
+    <h2 className={cn("font-bold text-2xl text-neutral-700", className)}>
       {children}
     </h2>
   );
@@ -111,8 +111,8 @@ const Star = ({ isGlowing, delay }) => {
         scale: 1,
       }}
       animate={{
-        scale: isGlowing ? [1, 1.2, 2.5, 2.2, 1.5] : 1,
-        background: isGlowing ? "#fff" : "#666",
+        scale: isGlowing ? [1, 1.2, 3.5, 3.2, 1.5] : 1,
+        background: isGlowing ? "#fff" : "#e882b2",
       }}
       transition={{
         duration: 2,
@@ -141,7 +141,7 @@ const Glow = ({ delay }) => {
       exit={{
         opacity: 0,
       }}
-      className="absolute left-1/2 -translate-x-1/2 z-10 h-[4px] w-[4px] rounded-full bg-blue-500 blur-[1px] shadow-2xl shadow-blue-400"
+      className="absolute left-1/2 -translate-x-1/2 z-10 h-[4px] w-[4px] rounded-full bg-white blur-[1px] shadow-2xl shadow-white"
     />
   );
 };

@@ -20,7 +20,7 @@ export default function ProjectCard({ title, description, link }) {
         </div>
         <div className="absolute bottom-4 right-4 h-8 w-8 rounded-full flex items-center justify-center text-lg">
           <Link href={link} target="_blank">
-            <SiGithub color="white" />
+            <SiGithub color="gray" />
           </Link>
         </div>
       </GlowingStarsBackgroundCard>
