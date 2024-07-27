@@ -6,8 +6,8 @@ import { TbBrandReactNative } from "react-icons/tb";
 const About = () => {
   return (
     <div >
-        <div id='about' className='my-28 text-white'>About  </div>
-        <div  className=' mt-8 '>
+        <div id='about' className='my-12 text-white'>About  </div>
+        <div  className=' mt-8 max-md:mx-2'>
         <div className='flex flex-col  items-center  w-full  '>
            
             <div className=' shadow-md shadow-pink-100 flex max-md:flex-col flex-row md:max-w-5xl gap-4 bg-gradient-to-r from-white via-pink-200 max-md:pb-8 to-white md:bg-gradient-to-b md:from-white md:via-pink-200 md:to-white border-1 border-gray-200 rounded-lg '>

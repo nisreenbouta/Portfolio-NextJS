@@ -8,7 +8,7 @@ const Projects = () => {
   ]
   return (
     <div id='projects'>
-      <h2 className='font-light font-vt323 text-xl md:text-4xl tracking-wide '>My Projects</h2>
+      <h2 className='font-light font-vt323 text-4xl max-md:text-3xl max-md:text-center tracking-wide '>My Projects</h2>
         <div className='flex flex-row max-md:flex-col'>
           {projects.map((project) => (<ProjectCard description={project.description} title={project.title} link={project.link} key={project.title} />))}
         </div>
