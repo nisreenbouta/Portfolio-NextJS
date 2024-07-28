@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 // const arsenal = Arsenal({ weight: "400", subsets: ["latin"] });
-const vt323 = VT323({ weight: "400"});
+const vt323 = VT323({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
   title: "Nisreen Bouta | Full-Stack Developer",
