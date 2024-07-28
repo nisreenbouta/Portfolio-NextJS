@@ -2,8 +2,9 @@ import { Inter } from "next/font/google";
 import { VT323, Arsenal } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+
 const inter = Inter({ subsets: ["latin"] });
-const arsenal = Arsenal({weight: "400"});
+const arsenal = Arsenal({ weight: "400", subsets: ["latin"] }); 
 const vt323 = VT323({ weight: "400" });
 
 export const metadata = {
@@ -13,12 +14,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className=" scroll-smooth">
+    <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
-        <Header/>
-
+        <Header />
         {children}
-
       </body>
     </html>
   );
