@@ -38,7 +38,7 @@ const Footer = () => {
         </h2>
         </a>
 
-        <a href='/Nisreen Bouta CV- Full Stack Developer.pdf' download={"/Nisreen Bouta CV- Full Stack Developer.pdf"}>
+        <a href='/Nisreen Bouta CV.pdf' download={"/Nisreen Bouta CV.pdf"}>
         <h2 className="flex flex-row justify-center items-center gap-2 font-light  tracking-wider hover:text-pink-400 duration-150 ease-linear cursor-pointer">
           <FaFileLines /> Resume
         </h2>
