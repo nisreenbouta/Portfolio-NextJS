@@ -1,7 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,6 +10,8 @@
 .font-vt323 {
   font-family: 'VT323', monospace;
 }
+
+
 .font-arsenal {
-    font-family: 'Arsenal', monospace;
-  }
+  font-family: 'Arsenal', monospace;
+}

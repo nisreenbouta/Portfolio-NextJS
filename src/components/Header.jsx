@@ -7,7 +7,7 @@ const Header = () => {
             <a href='#about'>
                 <h2 className=' font-bold font-arsenal tracking-wide hover:text-pink-400 duration-150 ease-linear cursor-pointer'>About</h2>
             </a>
-            <h2 className=' font-light font-vt323 text-3xl md:text-4xl tracking-wide  hover:text-pink-400 duration-150 ease-linear cursor-pointer'>Nisreen Bouta</h2>
+            <h2 className=' font-light text-3xl md:text-4xl tracking-wide  hover:text-pink-400 duration-150 ease-linear cursor-pointer'>Nisreen Bouta</h2>
             <a href='#projects'>
                 <h2 className=' font-bold font-arsenal tracking-wide hover:text-pink-400 duration-150 ease-linear cursor-pointer'>Projects</h2>
             </a>

@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function ProjectCard({ title, description, link }) {
   return (
-    <div className="flex py-20 items-center justify-center antialiased">
+    <div className="flex py-20 items-center justify-center antialiased font-mono">
       <GlowingStarsBackgroundCard>
         <GlowingStarsTitle>{title}</GlowingStarsTitle>
         <div className="flex justify-between items-end">
