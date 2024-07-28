@@ -13,11 +13,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>
-       <div className={vt323.className}>
+    <html lang="en" className={`scroll-smooth`}>
+      <body className={`${vt323.className}`} >
+       {/* <div className={`${vt323.className} sticky`}> */}
          <Header />
-       </div>
+       {/* </div> */}
         <div className={vt323.className}>
           {children}
         </div>
