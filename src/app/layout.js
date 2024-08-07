@@ -1,6 +1,7 @@
 import { Inter, VT323, Arsenal } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 // const arsenal = Arsenal({ weight: "400", subsets: ["latin"] });
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
          <Header />
        {/* </div> */}
         <div className={vt323.className}>
+          <Analytics/>
           {children}
         </div>
       </body>
