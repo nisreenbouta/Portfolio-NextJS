@@ -16,8 +16,8 @@ const About = () => {
                 </div>
                 <div className=' w-full text-start max-md:text-center font-semibold text-neutral-500 md:py-28 px-2   ' >
                     <h2 className=' w-full  font-normal tracking-wider  text-neutral-800 mb-4 text-4xl  '>About Me</h2>
-                    <p className='px-4 font-mono'>Software Engineer with expertise in .NET Core, NextJS, React Native, and VueJS v2. Proven ability to design, develop, and implement end-to-end solutions 
-                    across web, mobile, and database platforms, ensuring optimal performance and user experience.</p>
+                    <p className='px-4 font-mono'>Computer Engineer with expertise in software development using .NET Core, and ReactJS/Native. Proven ability to design, develop, and implement 
+                    end-to-end solutions across web, mobile, and database platforms, ensuring optimal performance and user experience.</p>
                     <h2 className=' w-full tracking-wider font-normal text-neutral-800 my-4  text-4xl'>Technologies I use</h2>
                         <div className=' text-neutral-500 text-xl md:text-2xl flex flex-row max-md:flex-wrap max-md:justify-center gap-1 mt-2 items-center px-4'>
                             <SiReact />
